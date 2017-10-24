@@ -3,7 +3,7 @@ class Vertex
   def initialize(value)
     @value = value
     @in_edges = []
-    @out_edges = []
+    @out_edges = out_edges
   end
 end
 
